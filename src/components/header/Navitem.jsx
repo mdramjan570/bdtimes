@@ -3,7 +3,7 @@ import React from "react";
 const Navitem = () => {
   return (
     <div>
-      <ul className="items-center hidden gap-6  lg:flex">
+      <ul className="flex items-center gap-6 text-lg">
         <li className="transition-all cursor-pointer hover:text-primary">
           Home
         </li>

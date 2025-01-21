@@ -13,10 +13,10 @@ const Navabr = () => {
           <Logo />
         </div>
         <div className="flex items-center gap-4">
-          <div>
+          <div className="hidden lg:block">
             <Navitem />
           </div>
-          <div>
+          <div className="hidden  sm:block">
             <SearchBar />
           </div>
 

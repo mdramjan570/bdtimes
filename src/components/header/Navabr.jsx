@@ -7,7 +7,7 @@ import MobileMenu from "./MobileMenu";
 const Navabr = () => {
   const [menu, setMenu] = useState(false);
   return (
-    <div className="container px-4 mx-auto md:px-8 lg:px-10 xl:px-0 max-w-7xl">
+    <div className="">
       <div className="flex flex-wrap items-center justify-between py-3">
         <div>
           <Logo />
@@ -16,7 +16,7 @@ const Navabr = () => {
           <div className="hidden lg:block">
             <Navitem />
           </div>
-          <div className="hidden  sm:block">
+          <div className="hidden sm:block">
             <SearchBar />
           </div>
 

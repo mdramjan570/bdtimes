@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         primary: "#C00F24",
+        hoverColor: "#3B82F6",
       },
     },
   },

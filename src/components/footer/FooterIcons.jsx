@@ -12,28 +12,28 @@ import {
 export const FooterIcons = () => {
   return (
     <div className="flex flex-wrap justify-center gap-6">
-      <span>
+      <span className="transition-all cursor-pointer hover:text-hoverColor">
         <FaFacebook />
       </span>
-      <span>
+      <span className="transition-all cursor-pointer hover:text-hoverColor">
         <FaTwitter />
       </span>
-      <span>
+      <span className="transition-all cursor-pointer hover:text-hoverColor">
         <FaLinkedinIn />
       </span>
-      <span>
+      <span className="transition-all cursor-pointer hover:text-hoverColor">
         <FaPinterest />
       </span>
-      <span>
+      <span className="transition-all cursor-pointer hover:text-hoverColor">
         <FaInstagram />
       </span>
-      <span>
+      <span className="transition-all cursor-pointer hover:text-hoverColor">
         <FaTelegram />
       </span>
-      <span>
+      <span className="transition-all cursor-pointer hover:text-hoverColor">
         <FaInstagram />
       </span>
-      <span>
+      <span className="transition-all cursor-pointer hover:text-hoverColor">
         <FaYoutube />
       </span>
     </div>

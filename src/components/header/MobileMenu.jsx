@@ -3,9 +3,9 @@ import { MdClose } from "react-icons/md";
 
 const MobileMenu = ({ setMenu }) => {
   return (
-    <div className="w-[70%]  bg-white shadow ml-auto  h-screen absolute top-0 right-0 left-0 md:hidden ">
-      <div>
-        <span className="flex justify-end p-2 text-2xl cursor-pointer ">
+    <div className="fixed inset-0 top-0 bottom-0 left-0 right-0 z-10 w-full h-screen bg-black bg-opacity-10 backdrop-blur-sm">
+      <div className="bg-white ml-auto h-full   w-[70%]">
+        <span className="flex justify-end p-2 text-2xl cursor-pointer hover:text-primary ">
           <MdClose
             onClick={() => {
               setMenu(false);

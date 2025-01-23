@@ -1,9 +1,9 @@
 import React from "react";
 
-const Navitem = () => {
+const FooterItems = () => {
   return (
     <div>
-      <ul className="items-center hidden gap-6 text-lg lg:flex">
+      <ul className="flex flex-wrap justify-center text-lg gap-x-8">
         <li className="transition-all cursor-pointer hover:text-primary">
           Home
         </li>
@@ -34,4 +34,4 @@ const Navitem = () => {
   );
 };
 
-export default Navitem;
+export default FooterItems;

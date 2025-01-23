@@ -1,34 +1,40 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navitem = () => {
   return (
     <div>
-      <ul className="items-center hidden gap-6  lg:flex">
-        <li className="transition-all cursor-pointer hover:text-primary">
+      <ul className="flex items-center gap-4 text-lg">
+        <NavLink
+          to="/"
+          className="transition-all cursor-pointer hover:text-primary"
+        >
           Home
-        </li>
-        <li className="transition-all cursor-pointer hover:text-primary">AI</li>
-        <li className="transition-all cursor-pointer hover:text-primary">
+        </NavLink>
+        <NavLink className="transition-all cursor-pointer hover:text-primary">
+          AI
+        </NavLink>
+        <NavLink className="transition-all cursor-pointer hover:text-primary">
           Payments
-        </li>
-        <li className="transition-all cursor-pointer hover:text-primary">
+        </NavLink>
+        <NavLink className="transition-all cursor-pointer hover:text-primary">
           Banking
-        </li>
-        <li className="transition-all cursor-pointer hover:text-primary">
+        </NavLink>
+        <NavLink className="transition-all cursor-pointer hover:text-primary">
           Crypto
-        </li>
-        <li className="transition-all cursor-pointer hover:text-primary">
+        </NavLink>
+        <NavLink className="transition-all cursor-pointer hover:text-primary">
           wealth
-        </li>
-        <li className="transition-all cursor-pointer hover:text-primary">
+        </NavLink>
+        <NavLink className="transition-all cursor-pointer hover:text-primary">
           International
-        </li>
-        <li className="transition-all cursor-pointer hover:text-primary">
+        </NavLink>
+        <NavLink className="transition-all cursor-pointer hover:text-primary">
           Gallery
-        </li>
-        <li className="transition-all cursor-pointer hover:text-primary">
+        </NavLink>
+        <NavLink className="transition-all cursor-pointer hover:text-primary">
           More
-        </li>
+        </NavLink>
       </ul>
     </div>
   );

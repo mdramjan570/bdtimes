@@ -1,10 +1,17 @@
 import React from "react";
-import Navabr from "./components/footer/header/Navabr";
+import Navabr from "./components/header/Navabr";
+import Footer from "./components/footer/footer";
+import Home from "./pages/Home";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className=" text-3xl font-poppins">
+    <div>
       <Navabr />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
     </div>
   );
 };
